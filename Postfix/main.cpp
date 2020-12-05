@@ -162,8 +162,9 @@ int main(){
                     char val=STACK.Pop();
                         out=out+val;
 
-                    Display(temp,out,STACK);
+                    //1 Display(temp,out,STACK);
                 }
+                //Display(temp,out,STACK);
                 STACK.Pop();
                 Display(temp,out,STACK);
                 }
@@ -189,8 +190,9 @@ int main(){
 
                         char val=STACK.Pop();
                             out=out+val;
-                        Display(temp,out,STACK);
+                        //2 Display(temp,out,STACK);
                     }
+                    //Display(temp,out,STACK);
                     STACK.Push(temp);
                     Display(temp,out,STACK);
                 }
@@ -211,11 +213,11 @@ int main(){
         char val=STACK.Pop();
 
             out=out+val;
-        Display(temp,out,STACK);
+        //3 Display(temp,out,STACK);
 
     }
+    Display(temp,out,STACK);
     cout<<"\n\nFINAL STRING : "<<out<<endl;
 
 
 }
-
